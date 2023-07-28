@@ -5,7 +5,6 @@ class EliController {
     eliService: EliService;
     constructor(eliService: EliService) {
         this.eliService = eliService;
-        // Bind the methods to the correct context
         this.getAllIncentives = this.getAllIncentives.bind(this);
     }
 
